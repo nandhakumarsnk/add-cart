@@ -60,10 +60,10 @@ body{
     
 }
 #root{
-    width:80%;
+    width:60%;
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 190px 190px;
     grid-gap: 20px;
     
 }
