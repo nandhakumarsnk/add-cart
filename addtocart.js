@@ -21,7 +21,7 @@ const product=[
         id:3,
         image:'WATCH.jpg',
         title:'WATCH',
-        price:1400,
+        price:1800,
     }
 ];
 const categories=[...new Set(product.map((item)=>
@@ -38,7 +38,7 @@ document.getElementById('root').innerHTML=categories.map((item)=>
                 </div>
                 <div class='bottom'>
                     <p>${title}</p>
-                    <h2>$ ${price}.00</h2>`+
+                    <h2><i class="fa-solid fa-indian-rupee-sign"></i> {price}.00</h2>`+
                     "<button onclick='addtocart("+(i++)+")'>Add to cart</button>"+
                 `</div>
             </div>`      
